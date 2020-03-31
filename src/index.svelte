@@ -1,3 +1,15 @@
-<h1>Svelte</h1>
+<script>
+    import Header from './components/Header.svelte'
+    import Nav from './components/Nav.svelte'
+    import Footer from './components/Footer.svelte'
+    import Main from './components/Main.svelte'
+</script>
 
-<p>Welcome to coding with Svelte!</p>
+<Header />
+
+<Nav />
+
+<Main />
+
+<Footer />
+
